@@ -1,0 +1,163 @@
+#we can use the below commands for help
+on the python console type
+
+>>> help("modules")
+
+
+module()mallesha@mallesha-VirtualBox:~/python$ python
+Python 3.6.9 (default, Apr 18 2020, 01:56:04)
+[GCC 8.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> help("modules")
+
+Please wait a moment while I gather a list of all available modules...
+
+Fun1                abc                 hmac                runpy
+__future__          aifc                html                sched
+_ast                antigravity         html5lib            secrets
+_asyncio            appdirs             http                select
+_bisect             argparse            idna                selectors
+_blake2             array               imaplib             setuptools
+_bootlocale         ast                 imghdr              shelve
+_bz2                asynchat            imp                 shlex
+_codecs             asyncio             importlib           shutil
+_codecs_cn          asyncore            inspect             signal
+_codecs_hk          atexit              io                  site
+_codecs_iso2022     audioop             ipaddress           sitecustomize
+_codecs_jp          base64              itertools           six
+_codecs_kr          bdb                 json                smtpd
+_codecs_tw          binascii            keyword             smtplib
+_collections        binhex              lib2to3             sndhdr
+_collections_abc    bisect              linecache           socket
+_compat_pickle      builtins            locale              socketserver
+_compression        bz2                 logging             spwd
+_crypt              cProfile            lzma                sqlite3
+_csv                calendar            macpath             sre_compile
+_ctypes             certifi             macurl2path         sre_constants
+_ctypes_test        cgi                 mailbox             sre_parse
+_curses             cgitb               mailcap             ssl
+_curses_panel       chunk               marshal             stat
+_datetime           cmath               math                statistics
+_dbm                cmd                 mimetypes           string
+_decimal            code                mmap                stringprep
+_dummy_thread       codecs              modulefinder        struct
+_elementtree        codeop              multiprocessing     subprocess
+_functools          collections         netrc               sunau
+_gdbm               colorama            nis                 symbol
+_hashlib            colorsys            nntplib             symtable
+_heapq              compileall          ntpath              sys
+_imp                concurrent          nturl2path          sysconfig
+_io                 configparser        numbers             syslog
+_json               contextlib          opcode              tabnanny
+_locale             copy                operator            tarfile
+_lsprof             copyreg             optparse            telnetlib
+_lzma               crypt               os                  tempfile
+_markupbase         csv                 ossaudiodev         termios
+_md5                ctypes              packaging           test
+_multibytecodec     curses              parser              textwrap
+_multiprocessing    datetime            pathlib             this
+_opcode             dbm                 pdb                 threading
+_operator           decimal             pickle              time
+_osx_support        difflib             pickletools         timeit
+_pickle             dis                 pip                 token
+_posixsubprocess    distlib             pipes               tokenize
+_pydecimal          distro              pkg_resources       trace
+_pyio               distutils           pkgutil             traceback
+_random             doctest             platform            tracemalloc
+_sha1               dummy_threading     plistlib            tty
+_sha256             easy_install        poplib              turtle
+_sha3               email               posix               types
+_sha512             encodings           posixpath           typing
+_signal             ensurepip           pprint              unicodedata
+_sitebuiltins       enum                profile             unittest
+_socket             errno               progress            urllib
+_sqlite3            faulthandler        pstats              urllib3
+_sre                fcntl               pty                 uu
+_ssl                filecmp             pwd                 uuid
+_stat               fileinput           py_compile          venv
+_string             fnmatch             pyclbr              warnings
+_strptime           formatter           pydoc               wave
+_struct             fractions           pydoc_data          weakref
+_symtable           ftplib              pyexpat             webbrowser
+_sysconfigdata_m_linux_x86_64-linux-gnu functools           pyparsing           wheel
+_testbuffer         gc                  queue               wsgiref
+_testcapi           genericpath         quopri              xdrlib
+_testimportmultiple getopt              random              xml
+_testmultiphase     getpass             re                  xmlrpc
+_thread             gettext             readline            xxlimited
+_threading_local    glob                reprlib             xxsubtype
+_tracemalloc        grp                 requests            zipapp
+_warnings           gzip                resource            zipfile
+_weakref            hashlib             retrying            zipimport
+_weakrefset         heapq               rlcompleter         zlib
+
+Enter any module name to get more help.  Or, type "modules spam" to search
+for modules whose name or summary contain the string "spam".
+
+# to get the individual module help and documentation:
+
+print(help(math))
+
+it will print the documentation of math functionNAME
+    math
+
+DESCRIPTION
+    This module is always available.  It provides access to the
+    mathematical functions defined by the C standard.
+
+FUNCTIONS
+    acos(...)
+        acos(x)
+
+        Return the arc cosine (measured in radians) of x.
+
+    acosh(...)
+        acosh(x)
+
+        Return the inverse hyperbolic cosine of x.
+
+    asin(...)
+        asin(x)
+
+        Return the arc sine (measured in radians) of x.
+
+    asinh(...)
+        asinh(x)
+
+        Return the inverse hyperbolic sine of x.
+
+    atan(...)
+        atan(x)
+
+==========================
+also we can import the mdoules as required
+
+example
+import math
+
+or
+
+import math as m   any suitable alias can be used instead of standard module name.
+
+m is the alais for math module
+
+later in teh programe we can keep using m for math module
+
+example
+
+import math as m
+
+then keep using m for math
+
+m.pow(2,3)
+
+ans should be 8
+
+the above example is given for standard modules built in while installing but the same concept is used for custom modules.
+
+===============================
+
+
+
+
+
